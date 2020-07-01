@@ -1,151 +1,63 @@
 @media (min-width: 768px) and (max-width: 960px) {
+    #mainDiv{
+        display: flex;
+        flex-wrap: wrap;
 
+    }
     #a{
         width: 100%;
         height: 100px;
-        /* padding: 50px; */
-        background-color: green;
     }
     #b{
-        float: left;
+        /* float: left; */
         height: 600px;
         /* width: 200px; */
         width: 20%;
-        /* padding: 50px; */
-        background-color: lightblue;
     }
     #c{
-        float: left;
+        /* float: left; */
         height: 200px;
         /* width: 380px; */
         width: 40%;
-        /* padding: 50px; */
-        background-color: lightseagreen;
     }
     #d{
-        float: left;
+        /* float: left; */
         height: 200px;
         /* width: 380px; */
         width: 40%;
-        /* padding: 50px; */
-        background-color: maroon;
     }
     #e{
-        float: left;
-        /* position: absolute; */
         /* float: left; */
-        /* width: 190px; */
         width: 20%;
         height: 250px;
-        background-color: lawngreen;
-        /* padding: 50px; */
     }
     #f{
-        float: left;
-        /* float: right; */
-        /* width: 190px; */
+        /* float: left; */
         width: 20%;
         height: 250px;
-        background-color: indigo;
-        border-left: 1px solid gray;
-        /* padding: 50px; */
     }
     #g{
-        float: left;
-        /* position: relative; */
         /* float: left; */
-        /* width: 190px; */
         width: 20%;
         height: 250px;
-        background-color: rgb(128, 68, 172);
-        /* padding: 50px; */
     }
     #h{
-        float: left;
-        /* float: right; */
-        /* width: 190px; */
+        /* float: left; */
         width: 20%;
         height: 250px;
-        background-color: lawngreen;
-        border-left: 1px solid gray;
-        /* padding: 50px; */
     }
-    /* .floatClear{
-        clear: both;
-    } */
     #i{
-        float: left;
+        /* float: left; */
         height: 150px;
         /* width: 760px; */
         width: 80%;
-        /* padding: 50px; */
-        background-color: mediumblue;
     }
+    .test{
+        display: flex;
+    }
+
 }
 @media (min-width: 480px) and (max-width: 767px){
 
-    #a{
-        height: 75px;
-        /* padding: 50px; */
-        background-color: green;
-    }
-    #b{
-        height: 150px;
-        /* padding: 50px; */
-        background-color: lightblue;
-    }
-    #c{
-        height: 125px;
-        /* padding: 50px; */
-        background-color: lightseagreen;
-    }
-    #d{
-        height: 125px;
-        /* padding: 50px; */
-        background-color: maroon;
-    }
-    #e{
-        /* position: absolute; */
-        float: left;
-        /* width: 240px; */
-        width: 50%;
-        height: 250px;
-        background-color: lawngreen;
-        /* padding: 50px; */
-    }
-    #f{
-        float: right;
-        /* width: 240px; */
-        width: 50%;
-        height: 250px;
-        background-color: indigo;
-        border-left: 1px solid gray;
-        /* padding: 50px; */
-    }
-    #g{
-        /* position: relative; */
-        float: left;
-        /* width: 240px; */
-        width: 50%;
-        height: 250px;
-        background-color: rgb(128, 68, 172);
-        /* padding: 50px; */
-    }
-    #h{
-        float: right;
-        /* width: 240px; */
-        width: 50%;
-        height: 250px;
-        background-color: lawngreen;
-        border-left: 1px solid gray;
-        /* padding: 50px; */
-    }
-    .floatClear{
-        clear: both;
-    }
-    #i{
-        height: 80px;
-        /* padding: 50px; */
-        background-color: mediumblue;
-    }
+   
 }

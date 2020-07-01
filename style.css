@@ -1,0 +1,173 @@
+@media (min-width: 768px) and (max-width: 960px) {
+    #a,#b,#c,#d,#e,#f,#g,#h,#i{
+        border-top: 1px solid gray;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+    }
+    #mainDiv{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+    #a{
+        width: 100%;
+        height: 100px;
+        /* padding: 50px; */
+        background-color: green;
+    }
+    #b{
+        float: left;
+        height: 600px;
+        /* width: 200px; */
+        width: 20%;
+        /* padding: 50px; */
+        background-color: lightblue;
+    }
+    #divAll{
+        
+        /* display: flex; */
+        flex-wrap: wrap;
+    }
+    /* #cAndD,#eAndF{
+        display: inline-block;
+    } */
+    #gAndH{
+        float: left;
+    }
+    #eAndF{
+        float: right;
+    }
+     #c{
+        float: left;
+        height: 200px;
+        width: 380px;
+        /* width: 40%; */
+        background-color: lightseagreen;
+    }
+    #d{
+        float: left;
+        height: 200px;
+        width: 380px;
+        /* width: 40%; */
+        background-color: maroon;
+    }
+    #e{
+        float: left;
+        /* width: 20%; */
+        width: 188px;
+        height: 250px;
+        background-color: lawngreen;
+    }
+    #f{
+        float: left;
+        /* width: 20%; */
+        width: 190px;
+        height: 250px;
+        background-color: indigo;
+        border-left: 1px solid gray;
+    }
+    #g{
+        float: left;
+        /* width: 20%; */
+        width: 190px;
+        height: 250px;
+        background-color: rgb(128, 68, 172);
+    }
+    #h{
+        float: left;
+        /* width: 20%; */
+        width: 188px;
+        height: 250px;
+        background-color: lawngreen;
+        border-left: 1px solid gray;
+    }
+    .floatClear{
+        clear: both;
+    }
+    #i{
+        /* float: left; */
+        height: 150px;
+        width: 80%;
+        background-color: mediumblue;
+    } 
+}
+@media (min-width: 480px) and (max-width: 767px){
+    #mainDiv{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #a,#b,#c,#d,#e,#f,#g,#h,#i{
+        border-top: 1px solid gray;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+    }
+    #eAndF,#gAndH{
+        display: flex;
+    }
+    #a{
+        height: 75px;
+        /* padding: 50px; */
+        background-color: green;
+    }
+    #b{
+        height: 150px;
+        /* padding: 50px; */
+        background-color: lightblue;
+    }
+    #c{
+        height: 125px;
+        /* padding: 50px; */
+        background-color: lightseagreen;
+    }
+    #d{
+        height: 125px;
+        /* padding: 50px; */
+        background-color: maroon;
+    }
+    #e{
+        /* position: absolute; */
+        float: left;
+        /* width: 240px; */
+        width: 50%;
+        height: 250px;
+        background-color: lawngreen;
+        /* padding: 50px; */
+    }
+    #f{
+        float: right;
+        /* width: 240px; */
+        width: 50%;
+        height: 250px;
+        background-color: indigo;
+        border-left: 1px solid gray;
+        /* padding: 50px; */
+    }
+    #g{
+        /* position: relative; */
+        float: left;
+        /* width: 240px; */
+        width: 50%;
+        height: 250px;
+        background-color: rgb(128, 68, 172);
+        /* padding: 50px; */
+    }
+    #h{
+        float: right;
+        /* width: 240px; */
+        width: 50%;
+        height: 250px;
+        background-color: lawngreen;
+        border-left: 1px solid gray;
+        /* padding: 50px; */
+    }
+    .floatClear{
+        clear: both;
+    }
+    #i{
+        height: 80px;
+        /* padding: 50px; */
+        background-color: mediumblue;
+    }
+}
