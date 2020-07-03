@@ -5,7 +5,7 @@ $(document).ready(function() {
     //     console.log('i am disktop');
     // }
     $(window).resize(() =>{
-        if($(window).width() >= 768 && $(window).width() <= 960) {
+        if($(window).width() >= 768) {
             // console.log('i am disktop');
             $("section").css("background-color", "maroon");
             $("aside").css("background-color", "maroon");
